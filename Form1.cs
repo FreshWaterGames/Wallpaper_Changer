@@ -113,7 +113,7 @@ namespace WallpaperChanger
             string[] filelist = (string[])e.Data.GetData(DataFormats.FileDrop, false);
             string done = filelist[0];
             pictureBox1.Image = Image.FromFile(done);
-            if (imageCount <= 24)
+            if (imageCount <= 23)
             {
                 textBox1.Text = imageCount.ToString();
                 dict.Add(imageCount.ToString(), done);
@@ -147,6 +147,7 @@ namespace WallpaperChanger
             // searalization is the process of converting info into bytes to save / transmit them
             File.WriteAllText(saveFileDialog1.FileName + ".txt", new JavaScriptSerializer().Serialize(dict));
             textBox1.Text = "Photo Libary Saved!!";
+            imageCount = 0;
             
         }
 

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WallpaperChanger", "WallpaperChanger.csproj", "{1D561166-86EF-4E97-815D-0A5162C5553A}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WallpaperChangerSetup", "WallpaperChangerSetup\WallpaperChangerSetup.vdproj", "{89B04F04-9886-4928-9CB5-78154D286108}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{1D561166-86EF-4E97-815D-0A5162C5553A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D561166-86EF-4E97-815D-0A5162C5553A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D561166-86EF-4E97-815D-0A5162C5553A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89B04F04-9886-4928-9CB5-78154D286108}.Debug|Any CPU.ActiveCfg = Debug
+		{89B04F04-9886-4928-9CB5-78154D286108}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
