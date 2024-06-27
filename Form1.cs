@@ -143,12 +143,14 @@ namespace WallpaperChanger
         // saves photo
         private void save_button_Click(object sender, EventArgs e)
         {
-            saveFileDialog1.ShowDialog();
-            // searalization is the process of converting info into bytes to save / transmit them
-            File.WriteAllText(saveFileDialog1.FileName + ".txt", new JavaScriptSerializer().Serialize(dict));
-            textBox1.Text = "Photo Libary Saved!!";
-            imageCount = 0;
-            
+            if (imageCount >= 23)
+            {
+                saveFileDialog1.ShowDialog();
+                // searalization is the process of converting info into bytes to save / transmit them
+                File.WriteAllText(saveFileDialog1.FileName + ".txt", new JavaScriptSerializer().Serialize(dict));
+                textBox1.Text = "Photo Libary Saved!!";
+                imageCount = 0;
+            }
         }
 
         // loads photo libary
@@ -197,6 +199,8 @@ namespace WallpaperChanger
                 save_button.Visible = false;
                 timer1.Enabled = false;
                 timer2.Enabled = false;
+                imageCount = 0;
+                dict = new Dictionary<string, string>();
             }
             if (unlocked == false)
             {
@@ -210,6 +214,8 @@ namespace WallpaperChanger
                 save_button.Visible = true;
                 timer1.Enabled = false;
                 timer2.Enabled = false;
+                imageCount = 0;
+                dict = new Dictionary<string, string>();
             }
             unlocked = !unlocked;
         }

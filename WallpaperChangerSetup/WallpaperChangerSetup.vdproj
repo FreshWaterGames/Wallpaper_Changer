@@ -15,12 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_14BB7CE08A5249C2933FF8F01E51F959"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_2F8EEC6B3C704E85831FD2BA4D05D82A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -33,12 +27,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_BC5CA8F7174A464B8524B5B48BA9B828"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_C328912E2CF283A71A9E9703F077925F"
         "OwnerKey" = "8:_31601F04A47E484993FD7618E44C63E6"
         "MsmSig" = "8:_UNDEFINED"
@@ -46,13 +34,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C328912E2CF283A71A9E9703F077925F"
+        "OwnerKey" = "8:_31601F04A47E484993FD7618E44C63E6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_31601F04A47E484993FD7618E44C63E6"
+        "OwnerKey" = "8:_C328912E2CF283A71A9E9703F077925F"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -73,6 +61,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -89,6 +85,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -118,50 +122,10 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_14BB7CE08A5249C2933FF8F01E51F959"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\floppa.ico"
-            "TargetName" = "8:floppa.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_2C3B85597DE64DDF815E7CBDBFA5FBA2"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2F8EEC6B3C704E85831FD2BA4D05D82A"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Downloads\\preferencesdesktopwallpaper_103370.ico"
             "TargetName" = "8:preferencesdesktopwallpaper_103370.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_2C3B85597DE64DDF815E7CBDBFA5FBA2"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BC5CA8F7174A464B8524B5B48BA9B828"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\-wallpaper_89815.ico"
-            "TargetName" = "8:-wallpaper_89815.ico"
             "Tag" = "8:"
             "Folder" = "8:_2C3B85597DE64DDF815E7CBDBFA5FBA2"
             "Condition" = "8:"
