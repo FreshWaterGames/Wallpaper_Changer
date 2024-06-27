@@ -1,0 +1,14 @@
+C:\Users\capta\Documents\VisualStudioGitHub\WallpaperChanger\bin\Debug\WallpaperChanger.exe.config
+C:\Users\capta\Documents\VisualStudioGitHub\WallpaperChanger\bin\Debug\WallpaperChanger.exe
+C:\Users\capta\Documents\VisualStudioGitHub\WallpaperChanger\bin\Debug\WallpaperChanger.pdb
+C:\Users\capta\Documents\VisualStudioGitHub\WallpaperChanger\obj\Debug\WallpaperChanger.csproj.AssemblyReference.cache
+C:\Users\capta\Documents\VisualStudioGitHub\WallpaperChanger\obj\Debug\WallpaperChanger.Form1.resources
+C:\Users\capta\Documents\VisualStudioGitHub\WallpaperChanger\obj\Debug\WallpaperChanger.Properties.Resources.resources
+C:\Users\capta\Documents\VisualStudioGitHub\WallpaperChanger\obj\Debug\WallpaperChanger.csproj.GenerateResource.cache
+C:\Users\capta\Documents\VisualStudioGitHub\WallpaperChanger\obj\Debug\WallpaperChanger.csproj.CoreCompileInputs.cache
+C:\Users\capta\Documents\VisualStudioGitHub\WallpaperChanger\obj\Debug\WallpaperChanger.exe
+C:\Users\capta\Documents\VisualStudioGitHub\WallpaperChanger\obj\Debug\WallpaperChanger.pdb
+C:\Users\capta\Documents\VisualStudioGitHub\WallpaperChanger\bin\Debug\WallpaperChanger.exe.manifest
+C:\Users\capta\Documents\VisualStudioGitHub\WallpaperChanger\bin\Debug\WallpaperChanger.application
+C:\Users\capta\Documents\VisualStudioGitHub\WallpaperChanger\obj\Debug\WallpaperChanger.exe.manifest
+C:\Users\capta\Documents\VisualStudioGitHub\WallpaperChanger\obj\Debug\WallpaperChanger.application
