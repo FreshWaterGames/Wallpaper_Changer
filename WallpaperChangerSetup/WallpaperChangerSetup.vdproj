@@ -15,32 +15,32 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_2F8EEC6B3C704E85831FD2BA4D05D82A"
+        "MsmKey" = "8:_2D4E90DE03094DD987A3F6189BAEB547"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_31601F04A47E484993FD7618E44C63E6"
+        "MsmKey" = "8:_346CADA454D74668B4D527B8094E8281"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_C328912E2CF283A71A9E9703F077925F"
-        "OwnerKey" = "8:_31601F04A47E484993FD7618E44C63E6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_31601F04A47E484993FD7618E44C63E6"
+        "OwnerKey" = "8:_346CADA454D74668B4D527B8094E8281"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_C328912E2CF283A71A9E9703F077925F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_346CADA454D74668B4D527B8094E8281"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -68,6 +68,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -92,6 +100,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -122,10 +138,10 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2F8EEC6B3C704E85831FD2BA4D05D82A"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2D4E90DE03094DD987A3F6189BAEB547"
             {
-            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\preferencesdesktopwallpaper_103370.ico"
-            "TargetName" = "8:preferencesdesktopwallpaper_103370.ico"
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\photo.ico"
+            "TargetName" = "8:photo.ico"
             "Tag" = "8:"
             "Folder" = "8:_2C3B85597DE64DDF815E7CBDBFA5FBA2"
             "Condition" = "8:"
@@ -243,7 +259,7 @@
         "ARPHELPLINK" = "8:"
         "Title" = "8:WallpaperChangerSetup"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:FreshWaterGames"
+        "ARPCONTACT" = "8:Zack Mannheimer"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -350,32 +366,32 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_4995F12954AE47EBA71F6DAC6EECD46B"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B67AB7CB8241439DB857B8F6781206C4"
             {
-            "Name" = "8:Wallpaper Changer"
+            "Name" = "8:Wallpaper Chnager"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_31601F04A47E484993FD7618E44C63E6"
+            "Target" = "8:_346CADA454D74668B4D527B8094E8281"
             "Folder" = "8:_F137A12AFCF24D268987FAF351B19446"
             "WorkingFolder" = "8:_2C3B85597DE64DDF815E7CBDBFA5FBA2"
-            "Icon" = "8:_2F8EEC6B3C704E85831FD2BA4D05D82A"
+            "Icon" = "8:_2D4E90DE03094DD987A3F6189BAEB547"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_6E7B12273FA1405294602E86FF631E78"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_DACD0E957FAE42B0A045E5225B4D386A"
             {
-            "Name" = "8:Wallpaper Changer"
+            "Name" = "8:Wallpaper Chnager"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_31601F04A47E484993FD7618E44C63E6"
+            "Target" = "8:_346CADA454D74668B4D527B8094E8281"
             "Folder" = "8:_DF7B69AE2C7E4099895058FC76F58AF2"
             "WorkingFolder" = "8:_2C3B85597DE64DDF815E7CBDBFA5FBA2"
-            "Icon" = "8:_2F8EEC6B3C704E85831FD2BA4D05D82A"
+            "Icon" = "8:_2D4E90DE03094DD987A3F6189BAEB547"
             "Feature" = "8:"
             }
         }
@@ -777,7 +793,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_31601F04A47E484993FD7618E44C63E6"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_346CADA454D74668B4D527B8094E8281"
             {
             "SourcePath" = "8:..\\obj\\Debug\\WallpaperChanger.exe"
             "TargetName" = "8:"

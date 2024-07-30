@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WallpaperChanger.exe" size="17376">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WallpaperChanger.exe" size="17888">
       <assemblyIdentity name="WallpaperChanger" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>defRjlTo/lmxNUJppXaxJzLuw1wC+hoqXddzBaEkxWE=</dsig:DigestValue>
+        <dsig:DigestValue>XaGvRwfo3m3l9XrFAqxYr5VfX/FK0jes5V+wj54YBcA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

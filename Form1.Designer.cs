@@ -48,6 +48,7 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
@@ -75,11 +76,11 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(12, 25);
+            this.textBox1.Location = new System.Drawing.Point(12, 30);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(214, 26);
             this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "Load or Create Photo Libary.\r\n";
+            this.textBox1.Text = "Create or Load Photo Libary";
             // 
             // timer1
             // 
@@ -103,17 +104,17 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(548, 25);
+            this.label1.Location = new System.Drawing.Point(529, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(229, 40);
+            this.label1.Size = new System.Drawing.Size(268, 40);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Drag 24 photo\'s into the blue\r\nsection to create a photo libary.\r\n";
+            this.label1.Text = "To create a photo libary. \r\nDrag 24 photo\'s into the blue section\r\n";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // load_button
             // 
             this.load_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.load_button.Location = new System.Drawing.Point(242, 19);
+            this.load_button.Location = new System.Drawing.Point(242, 22);
             this.load_button.Name = "load_button";
             this.load_button.Size = new System.Drawing.Size(115, 35);
             this.load_button.TabIndex = 8;
@@ -124,7 +125,7 @@
             // save_button
             // 
             this.save_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.save_button.Location = new System.Drawing.Point(391, 19);
+            this.save_button.Location = new System.Drawing.Point(391, 22);
             this.save_button.Name = "save_button";
             this.save_button.Size = new System.Drawing.Size(115, 35);
             this.save_button.TabIndex = 9;
@@ -160,20 +161,20 @@
             // UI_Changer
             // 
             this.UI_Changer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UI_Changer.Location = new System.Drawing.Point(607, 404);
+            this.UI_Changer.Location = new System.Drawing.Point(593, 404);
             this.UI_Changer.Name = "UI_Changer";
-            this.UI_Changer.Size = new System.Drawing.Size(99, 34);
+            this.UI_Changer.Size = new System.Drawing.Size(123, 34);
             this.UI_Changer.TabIndex = 11;
-            this.UI_Changer.Text = "Uncapped";
+            this.UI_Changer.Text = "Mode Switch";
             this.UI_Changer.UseVisualStyleBackColor = true;
             this.UI_Changer.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // LoadFolder
             // 
             this.LoadFolder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LoadFolder.Location = new System.Drawing.Point(242, 19);
+            this.LoadFolder.Location = new System.Drawing.Point(242, 22);
             this.LoadFolder.Name = "LoadFolder";
-            this.LoadFolder.Size = new System.Drawing.Size(115, 37);
+            this.LoadFolder.Size = new System.Drawing.Size(115, 34);
             this.LoadFolder.TabIndex = 12;
             this.LoadFolder.Text = "Load Folder";
             this.LoadFolder.UseVisualStyleBackColor = true;
@@ -186,7 +187,7 @@
             this.radioButton1.Checked = true;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.radioButton1.Location = new System.Drawing.Point(387, 6);
+            this.radioButton1.Location = new System.Drawing.Point(391, 6);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(96, 24);
             this.radioButton1.TabIndex = 13;
@@ -200,7 +201,7 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.radioButton2.Location = new System.Drawing.Point(387, 27);
+            this.radioButton2.Location = new System.Drawing.Point(391, 27);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(105, 24);
             this.radioButton2.TabIndex = 14;
@@ -214,7 +215,7 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.radioButton3.Location = new System.Drawing.Point(387, 48);
+            this.radioButton3.Location = new System.Drawing.Point(391, 48);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(75, 24);
             this.radioButton3.TabIndex = 15;
@@ -227,12 +228,26 @@
             // 
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(12, 6);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(89, 20);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Mode: 24hr";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
@@ -276,6 +291,7 @@
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Label label2;
     }
 }
 

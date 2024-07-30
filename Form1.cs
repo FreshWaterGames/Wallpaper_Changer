@@ -22,6 +22,7 @@ namespace WallpaperChanger
         DateTime now = DateTime.Now;
         Random random = new Random();
         string hours = "0";
+        int mins = 00;
         String getFile;
         string folderpath;
         string completepath;
@@ -82,28 +83,39 @@ namespace WallpaperChanger
             }
             else
             {
-                textBox1.Text = "Please Load Photo Libary.";
+                textBox1.Text = "Please Load Photo Library.";
             }
+            mins = now.Minute;
         }
 
         // 24hr timer
         private void timer1_Tick(object sender, EventArgs e)
         {
+            if (now.Minute > mins)
+            {
+                now = DateTime.Now;
+                hours = now.Hour.ToString();
+                textBox1.Text = "Running...";
+                // Sets wallpaper
+                SystemParametersInfo(SPI_SETWALL, 0, dict[hours], SPIF_UPDATE | SPIF_SWEDINI);
+                mins = now.Minute;
+            }
             now = DateTime.Now;
-            hours = now.Hour.ToString();
-            textBox1.Text = "Running...";
-            // Sets wallpaper
-            SystemParametersInfo(SPI_SETWALL, 0, dict[hours], SPIF_UPDATE | SPIF_SWEDINI);
         }
 
         // uncapped timer
         private void timer2_Tick(object sender, EventArgs e)
         {
-            var filepath = Directory.GetFiles(completepath);
-            choice = filepath[random.Next(filepath.Length)].ToString();
-            textBox1.Text = "Running...";
-            // Sets wallpaper
-            SystemParametersInfo(SPI_SETWALL, 0, choice, SPIF_UPDATE | SPIF_SWEDINI);
+            if (now.Minute > mins)
+            {
+                var filepath = Directory.GetFiles(completepath);
+                choice = filepath[random.Next(filepath.Length)].ToString();
+                textBox1.Text = "Running...";
+                // Sets wallpaper
+                SystemParametersInfo(SPI_SETWALL, 0, choice, SPIF_UPDATE | SPIF_SWEDINI);
+                mins = now.Minute;
+            }
+            now = DateTime.Now;
         }
 
 
@@ -148,7 +160,7 @@ namespace WallpaperChanger
                 saveFileDialog1.ShowDialog();
                 // searalization is the process of converting info into bytes to save / transmit them
                 File.WriteAllText(saveFileDialog1.FileName + ".txt", new JavaScriptSerializer().Serialize(dict));
-                textBox1.Text = "Photo Libary Saved!!";
+                textBox1.Text = "Photo Library Saved!!";
                 imageCount = 0;
             }
         }
@@ -162,7 +174,7 @@ namespace WallpaperChanger
                 getFile = openFileDialog1.FileName;
                 // deserialization rebuilds the information back to its original state
                 var dict_load = new JavaScriptSerializer().Deserialize<Dictionary<string, string>>(File.ReadAllText(getFile));
-                textBox1.Text = "Photo Libary Loaded!!";
+                textBox1.Text = "Photo Library Loaded!!";
                 dict = dict_load;
                 pictureBox1.Image = Image.FromFile(dict["0"]);
                 photosloaded = true;
@@ -189,7 +201,6 @@ namespace WallpaperChanger
         {
             if (unlocked == true)
             {
-                UI_Changer.Text = "24hr";
                 textBox1.Text = "Load Photo Folder.";
                 LoadFolder.Visible = true;
                 radioButton1.Visible = true;
@@ -201,11 +212,12 @@ namespace WallpaperChanger
                 timer2.Enabled = false;
                 imageCount = 0;
                 dict = new Dictionary<string, string>();
+                label1.Text = "When loading a folder, \r\nmake sure the folder only has photos.";
+                label2.Text = "Mode: Random";
             }
             if (unlocked == false)
             {
-                UI_Changer.Text = "Uncapped";
-                textBox1.Text = "Load or Create Photo Libary.\r\n";
+                textBox1.Text = "Create or Load Photo Library.\r\n";
                 LoadFolder.Visible = false;
                 radioButton1.Visible = false;
                 radioButton2.Visible = false;
@@ -216,6 +228,8 @@ namespace WallpaperChanger
                 timer2.Enabled = false;
                 imageCount = 0;
                 dict = new Dictionary<string, string>();
+                label1.Text = "To create a photo Library. \r\nDrag 24 photo's into the blue section\r\n";
+                label2.Text = "Mode: 24hr";
             }
             unlocked = !unlocked;
         }
