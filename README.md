@@ -1,4 +1,4 @@
-* To download the application itself use the releases tab. To download the entire project repository use the code toggle and download the zip.
+* To download the application itself use the releases tab and select the WallpaperChangerSetup.zip file. To download the entire project repository use the code toggle and download the zip.
 * 
 * 24hr mode dynamically cycles through photos that correlate with the current hour making a time-sensitive wallpaper engine.
 * 
